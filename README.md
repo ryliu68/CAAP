@@ -17,18 +17,11 @@ conda env create -f environment.yaml
 conda activate caap
 ```
 
-## Data
+## Run
 
-The code uses aligned palmprint ROI images as input. Please prepare the datasets according to the experimental protocol described in the paper.
-
-## Code
-
-This repository will include:
-
-- training code
-- evaluation code
-- transfer and ablation experiments
-- physical attack evaluation
+```bash
+bash run_attack_train.sh
+```
 
 ## Citation
 
